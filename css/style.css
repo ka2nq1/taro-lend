@@ -271,7 +271,7 @@ header .btn-link {
 .program .program-list {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 5.3rem;
     margin-bottom: 5.4rem;
 }
 
@@ -401,6 +401,7 @@ header .btn-link {
     position: absolute;
     bottom: -2.75rem;
     left: 50%;
+    width: 5.5rem;
     transform: translate(-50%);
 }
 
