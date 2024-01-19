@@ -86,6 +86,11 @@ header .btn-link {
     top: 74.5rem;
 }
 
+.speaker {
+    position: relative;
+    z-index: 6;
+}
+
 .for-whom {
     padding-top: 6.4rem;
 }
