@@ -116,7 +116,7 @@ header .btn-link {
     font-weight: 700;
     line-height: 6.6rem;
     position: relative;
-    min-width: 6rem;
+    min-width: 6.5rem;
     height: fit-content;
 }
 
@@ -129,7 +129,7 @@ header .btn-link {
     display: block;
     position: absolute;
     bottom: -0.2rem;
-    right: 0;
+    right: 0.5rem;
 }
 
 .for-whom .red-text {
