@@ -1,21 +1,9 @@
-function slidesToShow() {
-    if (window.innerWidth >= 1920) {
-        return 3
-    }
-    if (window.innerWidth >= 1280) {
-        return 2
-    }
-    if (window.innerWidth < 1280) {
-        return 1
-    }
-}
-
 $(".slick-slider").slick({
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: slidesToShow(),
-    slidesToScroll: slidesToShow()
+    slidesToShow: 1,
+    slidesToScroll: 1
 });
 
 $(document).ready(function() {
